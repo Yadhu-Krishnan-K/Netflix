@@ -1,57 +1,101 @@
-*{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    font-family: sans-serif;    
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
 }
-header{
-    z-index: 1;
-    position: absolute;
-    width: 100%;
+header {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+}
+.padding{
+    padding: 2rem;
+}
+.mainHead {
+  margin-left: 9vw;
+  margin-top: 35vh;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
 }
 
-.mainHead{
-    margin-left: 9vw;
-    margin-top: 35vh;
-    color: #fff;
-    font-size: 3rem;
-    font-weight: 900;
+.white {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.butto {
+  width: 100%;
+  height: 60px;
+}
+a {
+  color: #fff;
+}
+footer {
+  background-color: #000;
+}
+li {
+  margin-top: 10px;
+}
+.h1-size {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.p-size {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+#btnn {
+  height: 60px;
+  width: 200px;
+}
+#emil {
+  height: 60px;
+  width: 400px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000c7;
+  z-index: 1;
+}
+.card {
+  text-align: center;
+}
+.card img {
+  z-index: 1;
+}
+.card-title {
+  font-weight: 700;
+}
+.home-desc {
+  z-index: 2;
+}
+.card .formNb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
-.white{
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: 400;
+@media (max-width: 900px) {
+  .card img {
+    height: 40rem;
+  }
+  .kids-section .kids{
+    display: flex;
 }
-.butto{
-    width: 100%;
-    height: 60px;
 }
-a{
-        
-    color: #fff;
-}
-footer{
-    background-color: #000;
-}
-li{
-    margin-top: 10px;
-}
-.h1-size{
-    font-size: 3rem; font-weight: 900;
-}
-.p-size{
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-#btnn{
-    height: 60px;
-    width: 200px;
-}
-#emil{
-    height: 60px;
-    width: 400px;
-}
-@media(minwidth:900px){
-   
+@media (max-width: 395px){
+    #emil{
+        width: 367px;
+        padding: 22px 70px;
+    }
+    .card-img-overlay{
+        top: 48px;
+    }
 }
